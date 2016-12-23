@@ -1,0 +1,20 @@
+{
+  "name": "docker-nginx-node-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mtheoryx@github.com/mtheoryx/docker-nginx-node-proxy.git"
+  },
+  "keywords": [],
+  "author": "David R Poindexter III <drpoindexter@gmail.com> (http://vcard.davidrpoindexter.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtheoryx/docker-nginx-node-proxy/issues"
+  },
+  "homepage": "https://github.com/mtheoryx/docker-nginx-node-proxy#readme"
+}
