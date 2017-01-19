@@ -1,14 +1,12 @@
 version: '2'
 
 services:
-  nginx:
+  web:
     build: ./nginx
     links:
-      - nodejs:nodejs
+      - app
     ports:
-      - "8080:80"
+      - "8000:80"
 
-  nodejs:
+  app:
     build: ./nodejs
-    ports:
-      - "3000:3000"
