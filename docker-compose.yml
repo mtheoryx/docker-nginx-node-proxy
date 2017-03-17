@@ -6,7 +6,7 @@ services:
     links:
       - app
     ports:
-      - "8000:80"
+      - 8000:80
 
   app:
     build: ./nodejs
