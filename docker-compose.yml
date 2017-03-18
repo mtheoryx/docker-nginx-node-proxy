@@ -1,11 +1,12 @@
-nodejs:
-  build: ./nodejs
-  ports:
-    - "3000:3000"
+version: '2'
 
-nginx:
-  build: ./nginx
-  links:
-    - nodejs:nodejs
-  ports:
-    - "8000:80"
+services:
+  web:
+    build: ./nginx
+    links:
+      - app
+    ports:
+      - 8000:80
+
+  app:
+    build: ./nodejs
